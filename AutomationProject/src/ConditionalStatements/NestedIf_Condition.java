@@ -1,0 +1,33 @@
+package ConditionalStatements;
+
+public class NestedIf_Condition {
+
+	public static void main(String[] args) {
+		
+		int number = 100;
+		
+		if(number >10) {
+			
+			System.out.println("number is greatre than 10");//  number is greatre than 10
+			
+		
+		
+		if(number<1000){
+			
+			System.out.println("number is less than 1000");//  number is less than 1000
+			
+		
+		
+       if(number==100){
+			
+			System.out.println("number is equal to 100");//  number is equal to 100
+			
+		}
+		}
+		}
+		
+		System.out.println("Hi livetech team"); // Hi livetech team
+
+	}
+
+}
